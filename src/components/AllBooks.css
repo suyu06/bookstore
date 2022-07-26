@@ -1,0 +1,13 @@
+.allbooks {
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    max-width: 1120px;
+    margin: 20px;
+    padding: 50px;
+    color: #002060;
+    border: thick;
+    border-color: #002060;
+    border-style: inset;
+  
+  }

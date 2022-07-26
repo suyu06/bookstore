@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .about,
+  .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .about-container{
+    background-image: url('../public/images/plant_books.jpeg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: block;
+    height: 90vh;
+    text-align: center;
+   
+  }
+  .about-container h1{
+    font-size: 100px;
+    margin-bottom: 10px;
+   padding-top: 200px;
+  }
+  .about-container p {
+    margin-top:3em;
+    padding-right:10em;
+    padding-left:10em;
+    
+    
+  }
+  .contact-container{
+    background-image: url('../public/images/row_of_books.jpg'); 
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    height: 90vh;
+   
+    
+   
+  }
+  .contact {    
+    
+    font-size: 100px;
+    margin-bottom: 10px;
+   padding-top: 200px;
+  }
+  .contact-container p{
+    margin-top:0px;
+    padding-top:16px;
+  }
+  .signup {
+    background-image: url('../public/images/sign.jpeg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    height: 90vh;
+  }
+  
+@media screen and (max-width:768px){
+    .about{
+     padding:0px;       
+     margin:auto;
+     font-size:60px;       
+    }
+    
+}
